@@ -7,12 +7,12 @@
 var gulp = require('gulp');
 var elixir = require('laravel-elixir');
 
-require('../config/paths.js');
+var paths = require('../config/paths.js');
 
 elixir.extend('carbon', function () {
 
     gulp.task('carbon', function () {
-        files.forEach(function (file) {
+        paths.files.forEach(function (file) {
             gulp.src(file)
                 .pipe(gulp.dest(paths.build))
         });

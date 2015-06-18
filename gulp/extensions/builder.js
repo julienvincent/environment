@@ -10,7 +10,7 @@ var webpack = require('webpack');
 var $ = require('gulp-load-plugins')();
 
 var config = require('../config/webpack.js');
-require('../config/paths.js');
+var paths = require('../config/paths.js');
 
 elixir.extend('build', function () {
 

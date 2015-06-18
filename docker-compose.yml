@@ -1,0 +1,39 @@
+mysql:
+  image: mysql
+  volumes:
+     - mysql:/var/lib/mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: "docker"
+    MYSQL_DATABASE: "docker"
+  expose:
+    - "3306"
+
+backend:
+  image: julienvincent/laravel
+  ports:
+     - "8080:80"
+  volumes:
+     - backend/src:/data/www
+  links:
+    - mysql
+
+frontend:
+  build: frontend/
+  ports:
+     - "80:80"
+  volumes:
+     - frontend/src/build:/data/www
+
+composer:
+  image: julienvincent/composer
+  volumes:
+    - backend/src:/data/www
+  working_dir: /data/www
+
+artisan:
+  image: julienvincent/artisan
+  volumes:
+    - backend/src:/data/www
+  working_dir: /data/www
+  links:
+    - mysql

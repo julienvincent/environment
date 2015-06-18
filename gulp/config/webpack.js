@@ -4,10 +4,12 @@
  |--------------------------------------------------------------------------
  **/
 
+'use strict';
+
 var webpack = require('webpack');
 var flag = require('yargs').argv;
 
-require('./paths.js');
+var paths = require('./paths.js');
 
 var config = {
     entry: paths.jsMain,
@@ -21,8 +23,8 @@ var config = {
         reasons: true
     },
     plugins: [
-        webpack.optimize.OccurenceOrderPlugin()
-    ].concat(flag.min ? [] : [
+        new webpack.optimize.OccurenceOrderPlugin()
+    ].concat(!flag.production ? [] : [
             new webpack.optimize.DedupePlugin(),
             new webpack.optimize.UglifyJsPlugin(),
             new webpack.optimize.AggressiveMergingPlugin()
@@ -40,5 +42,4 @@ var config = {
         ]
     }
 };
-
 module.exports = config;

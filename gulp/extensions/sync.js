@@ -8,7 +8,7 @@ var gulp = require('gulp');
 var elixir = require('laravel-elixir');
 var sync = require('browser-sync');
 
-require('../config/paths.js');
+var paths = require('../config/paths.js');
 
 elixir.extend('sync', function () {
 

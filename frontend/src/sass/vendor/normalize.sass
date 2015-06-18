@@ -1,0 +1,40 @@
+*
+  box-sizing: border-box
+
+body
+  line-height: 1.7em
+  color: black
+  background: rgba(0, 0, 0, 0.80)
+  font-size: 18px
+  margin: 0
+
+h1, h2, h3, h4, h5, h6, label, p
+  margin: 0
+  color: black
+  font-family: Source Sans Pro
+
+.small-box
+  padding: 0.3em
+
+.medium-box
+  padding: 0.5em
+
+.large-box
+  padding: 1em
+
+.left
+  text-align: left
+
+.center
+  text-align: center
+
+.right
+  text-align: right
+
+@mixin tablet
+  @media (min-width: 48em) and (max-width: 77em)
+    @content
+
+@mixin phone
+  @media (max-width: 48em)
+    @content
