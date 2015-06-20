@@ -8,21 +8,29 @@ mysql:
   expose:
     - "3306"
 
+proxy:
+  image: jwilder/nginx-proxy
+  ports: 80:80
+
 backend:
   image: julienvincent/laravel
   ports:
      - "8080:80"
   volumes:
      - backend/src:/data/www
+  environment:
+    VIRTUAL_HOST: "api.yourdomain.com"
   links:
     - mysql
 
 frontend:
   build: frontend/
   ports:
-     - "80:80"
+     - "8000:80"
   volumes:
      - frontend/src/build:/data/www
+  environment:
+    VIRTUAL_HOST: "www.yourdomain.com, yourdomain.com"
 
 composer:
   image: julienvincent/composer

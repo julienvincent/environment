@@ -2,42 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d02467a4-c651-46d0-9a16-5cae59e907be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/assets/css/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/react/components/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/react/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/sass/app.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/react/flux.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/sass/vendor/normalize.sass" />
-      <change type="DELETED" beforePath="X:\code\environment\backend\src\gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="X:\code\environment\backend\src\package.json" afterPath="" />
-      <change type="DELETED" beforePath="X:\code\environment\backend\src\readme.md" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysql/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/.gitignore" afterPath="$PROJECT_DIR$/backend/src/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/css/.gitignore" afterPath="$PROJECT_DIR$/frontend/src/assets/css/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/Dockerfile" afterPath="$PROJECT_DIR$/frontend/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/react/components/Home.js" afterPath="$PROJECT_DIR$/frontend/src/react/components/Home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Julien_Vincent.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Julien_Vincent.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/react/app.js" afterPath="$PROJECT_DIR$/frontend/src/react/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/sass/app.sass" afterPath="$PROJECT_DIR$/frontend/src/sass/app.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/extensions/builder.js" afterPath="$PROJECT_DIR$/gulp/extensions/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/extensions/carbon.js" afterPath="$PROJECT_DIR$/gulp/extensions/carbon.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/container/default.conf" afterPath="$PROJECT_DIR$/frontend/container/default.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/config/elixir.js" afterPath="$PROJECT_DIR$/gulp/config/elixir.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/environment.iml" afterPath="$PROJECT_DIR$/.idea/environment.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/react/flux.js" afterPath="$PROJECT_DIR$/frontend/src/react/flux.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/index.html" afterPath="$PROJECT_DIR$/frontend/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/sass/vendor/normalize.sass" afterPath="$PROJECT_DIR$/frontend/src/sass/vendor/normalize.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/config/paths.js" afterPath="$PROJECT_DIR$/gulp/config/paths.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/extensions/sync.js" afterPath="$PROJECT_DIR$/gulp/extensions/sync.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/config/webpack.js" afterPath="$PROJECT_DIR$/gulp/config/webpack.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="X:\code\environment\gulp\extentions\builder.js" afterPath="$PROJECT_DIR$/gulp/extensions/builder.js" />
-      <change type="MOVED" beforePath="X:\code\environment\gulp\extentions\carbon.js" afterPath="$PROJECT_DIR$/gulp/extensions/carbon.js" />
-      <change type="MOVED" beforePath="X:\code\environment\gulp\extentions\sync.js" afterPath="$PROJECT_DIR$/gulp/extensions/sync.js" />
     </list>
     <ignored path="environment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="default.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/container/default.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28772637">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.26559356">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -88,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gulp/extentions/copy.js" />
         <option value="$PROJECT_DIR$/gulp/extentions/liveReload.js" />
         <option value="$PROJECT_DIR$/gulp/extentions/sync.js" />
@@ -100,14 +97,11 @@
         <option value="$PROJECT_DIR$/frontend/src/sass/app.sass" />
         <option value="$PROJECT_DIR$/frontend/src/sass/vendor/normalize.sass" />
         <option value="$PROJECT_DIR$/frontend/src/react/flux.js" />
-        <option value="$PROJECT_DIR$/frontend/src/react/components/Home.js" />
-        <option value="$PROJECT_DIR$/frontend/src/react/app.js" />
         <option value="$PROJECT_DIR$/gulp/extensions/carbon.js" />
         <option value="$PROJECT_DIR$/gulp/extensions/sync.js" />
         <option value="$PROJECT_DIR$/gulp/config/elixir.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/gulp/extensions/builder.js" />
-        <option value="$PROJECT_DIR$/gulp/config/paths.js" />
         <option value="$PROJECT_DIR$/frontend/src/assets/css/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gulp/config/webpack.js" />
@@ -115,8 +109,14 @@
         <option value="$PROJECT_DIR$/frontend/src/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/build/app.js" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/backend/src/readme.md" />
+        <option value="$PROJECT_DIR$/frontend/src/react/app.js" />
+        <option value="$PROJECT_DIR$/frontend/src/react/components/Home.js" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/gulp/config/paths.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mysql/.gitignore" />
+        <option value="$PROJECT_DIR$/frontend/container/default.conf" />
       </list>
     </option>
   </component>
@@ -131,6 +131,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -162,6 +165,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,19 +187,19 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../julienvincent.net" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="JavaScriptLanguageLevel" value="ES6" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -656,6 +660,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d02467a4-c651-46d0-9a16-5cae59e907be" name="Default" comment="" />
@@ -665,15 +672,17 @@
       <workItem from="1434656794145" duration="709000" />
       <workItem from="1434657797633" duration="1266000" />
       <workItem from="1434659078697" duration="12261000" />
+      <workItem from="1434715887670" duration="1975000" />
+      <workItem from="1434796970077" duration="5165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14236000" />
+    <option name="totallyTimeSpent" value="21376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -686,7 +695,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50351757" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4964824" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4964824" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -701,6 +710,14 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -713,11 +730,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <marker date="1434667985862" expanded="false" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1434667985862" expanded="false" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -725,33 +766,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/container/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06639839">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1434667985862" expanded="false" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="[...]" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,42 +778,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39839035">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/composer.lock">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6861167">
           <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{&quot;App\\&quot;: &quot;app/&quot;...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044265594">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,34 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7082495">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1434665456244" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434665456244" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434665456244" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434665456244" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/react/flux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06639839">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding>
-            <marker date="1434666306516" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1434666306516" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434666306516" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/react/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044265594">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <marker date="1434666472642" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,6 +816,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11066398">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/sass/app.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/build/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30985916">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37625754">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/build/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26559356">
+          <caret line="0" column="2023" selection-start-line="0" selection-start-column="2023" selection-end-line="0" selection-end-column="2023" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/css/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022132797">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/extensions/carbon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19919518">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/extensions/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55331993">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/react/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44265592">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/react/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24346076">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/react/flux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44265592">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06639839">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -862,59 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/react/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48692152">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <marker date="1434666472665" expanded="false" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1434666472665" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434666472665" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434666472665" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/extensions/sync.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55331993">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1434667385864" expanded="false" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1434667385864" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434667385864" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434667385864" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434667385864" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434667385864" expanded="true" signature="-1:-1" placeholder="{&quot;port&quot;: 4200...}" />
-            <marker date="1434667385864" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022132797">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11066398">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <marker date="1434669044495" expanded="false" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1434669044495" expanded="true" signature="-1:-1" placeholder="{&quot;build&quot;: './frontend/src/build'...}" />
-            <marker date="1434669044495" expanded="true" signature="-1:-1" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/config/webpack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6861167">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.5090543">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <marker date="1434670554993" expanded="false" signature="-1:-1" placeholder="/*...*/" />
             <marker date="1434670554993" expanded="true" signature="-1:-1" placeholder="{...}" />
@@ -930,51 +964,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/sass/app.sass">
+    <entry file="file://$PROJECT_DIR$/gulp/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/build/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/extensions/carbon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19919518">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.22132796">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
           <folding>
-            <marker date="1434667385919" expanded="false" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1434667385919" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434667385919" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434667385919" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434799185064" expanded="false" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1434799185064" expanded="true" signature="-1:-1" placeholder="{&quot;build&quot;: './frontend/src/build'...}" />
+            <marker date="1434799185064" expanded="true" signature="-1:-1" placeholder="[...]" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30985916">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.46478873">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
-            <marker date="1434670782999" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434670782999" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434670782999" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434667985862" expanded="false" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1434667985862" expanded="true" signature="-1:-1" placeholder="[...]" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6639839">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.57545274">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <marker date="1434670948362" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;environment&quot;...}" />
             <marker date="1434670948362" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
@@ -985,52 +1002,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/build/index.html">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37625754">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.07042254">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <marker date="1434671041490" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434671041490" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434671041490" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="mysql:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="volumes:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="environment:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="expose:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="proxy:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="backend:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="ports:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="volumes:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="environment:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="links:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="frontend:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="ports:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="volumes:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="environment:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="composer:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="volumes:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="artisan:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="volumes:" />
+            <marker date="1434797441860" expanded="true" signature="-1:-1" placeholder="links:" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/build/app.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26559356">
-          <caret line="0" column="2023" selection-start-line="0" selection-start-column="2023" selection-end-line="0" selection-end-column="2023" />
-          <folding>
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{&quot;key&quot;: &quot;createRedirect&quot;...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{&quot;&amp;&quot;: &quot;&amp;amp;&quot;...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="/** Checks if an event is supported in the current execution environment. ...*/" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{&quot;currentScrollLeft&quot;: 0...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{&quot;a&quot;: &quot;a&quot;...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1434671041486" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.86542445">
+          <caret line="38" column="86" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022132797">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/assets/css/.gitignore">
+    <entry file="file://$PROJECT_DIR$/mysql/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022132797">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
@@ -1038,71 +1057,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/assets/css/app.css">
+    <entry file="file://$PROJECT_DIR$/frontend/container/default.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19919518">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="mysql:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="volumes:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="environment:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="expose:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="backend:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="ports:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="volumes:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="links:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="frontend:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="ports:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="volumes:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="composer:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="volumes:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="artisan:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="volumes:" />
-            <marker date="1434671351029" expanded="true" signature="-1:-1" placeholder="links:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1434664308846" expanded="false" signature="-1:-1" placeholder=" Laravel - A PHP Framework For Web Artisans ..." />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434664308846" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28772637">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.26559356">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>

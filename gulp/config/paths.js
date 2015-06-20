@@ -12,6 +12,6 @@ var paths = {
     fileWatch: './frontend/src/**/**', // Additional files location to be watched.
     files: [
         './frontend/src/index.html'
-    ]
+    ] // List of additional files to be copied to the build path
 };
 module.exports = paths;

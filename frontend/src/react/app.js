@@ -19,6 +19,12 @@ let transition = React.createFactory(TransitionGroup);
 
 class Container extends React.Component {
 
+    constructor() {
+
+        super();
+        context.router;
+    }
+
     render() {
         let name = this.context.router.getCurrentPath();
         return (
@@ -28,6 +34,10 @@ class Container extends React.Component {
         )
     }
 }
+
+Container.contextTypes = {
+    router: React.PropTypes.func
+};
 
 let routes = (
     route({name: 'home', path: '/', handler: Container},
