@@ -1,4 +1,5 @@
 ![nginx 1.7.10](https://img.shields.io/badge/nginx-v1.7.10-brightgreen.svg) ![hhvm status](https://img.shields.io/badge/hhvm-beta-orange.svg) ![License MIT](https://img.shields.io/dub/l/vibe-d.svg)
+
 A personalised development environment that allows for easy and fast deployment by making use of docker containers.
 
 ## Contains:
@@ -36,4 +37,3 @@ Containers:
 The last two containers are for working with Laravel on the backend:
 + `composer` Builds a container with composer installed to make deployment easier.
 + `artisan` Builds a container with artisan installed to make deployment easier.
-+ `node` Builds a container with node and npm installed also to make deployment easier
