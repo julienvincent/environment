@@ -5,9 +5,8 @@ mysql:
   environment:
     MYSQL_ROOT_PASSWORD: "docker"
     MYSQL_DATABASE: "docker"
-  expose:
-    - "3306"
 
+# Untested!
 proxy:
   image: jwilder/nginx-proxy
   ports: 80:80
@@ -24,7 +23,7 @@ backend:
     - mysql
 
 frontend:
-  build: frontend/
+  image: julienvincent/nginx:react
   ports:
      - "8000:80"
   volumes:

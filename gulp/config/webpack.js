@@ -37,7 +37,7 @@ var config = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader?experimental&optional=runtime'
+                loader: 'babel-loader?stage=0&optional=runtime'
             }
         ]
     }

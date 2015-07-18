@@ -13,9 +13,8 @@ var paths = require('../config/paths.js');
 elixir.extend('sync', function () {
 
     gulp.task('sync', function () {
-
         if (sync.active === true) {
-
+            sync.reload();
         } else if (gulp.tasks.watch.done === true) {
             sync({
                 server: {

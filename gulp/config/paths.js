@@ -6,12 +6,11 @@
 
 var paths = {
     build: './frontend/src/build', // Output location for compiled and copied files.
-    js: './frontend/src/js/**/*.js', // ES6 files location to be watched.
+    js: './frontend/src/react/**/*.js', // ES6 files location to be watched.
     jsMain: './frontend/src/react/app.js',
     assets: './frontend/src/assets/css', // Webpack entry
-    fileWatch: './frontend/src/**/**', // Additional files location to be watched.
     files: [
         './frontend/src/index.html'
-    ] // List of additional files to be copied to the build path
+    ] // List of additional files to be copied to the build path and watched
 };
 module.exports = paths;

@@ -7,13 +7,19 @@
 
 import { Flummox } from 'flummox'
 
-let api = 'http://' + window.location.hostname + ':8080';
+import UserActions from './actions/User'
+import UserStore from './stores/User'
 
 class Flux extends Flummox {
 
     constructor() {
 
         super();
+
+        this.api = 'http://' + window.location.hostname + ':8080';
+
+        this.createActions('users', UserActions);
+        this.createStore('users', UserStore, this, this.api);
     }
 }
 

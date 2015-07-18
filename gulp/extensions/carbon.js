@@ -18,6 +18,8 @@ elixir.extend('carbon', function () {
         });
     });
 
-    this.registerWatcher('carbon', paths.fileWatch);
+    paths.files.forEach(function (file) {
+        this.registerWatcher('carbon', file);
+    }.bind(this));
     return this.queueTask('carbon');
 });
