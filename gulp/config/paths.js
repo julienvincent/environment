@@ -9,6 +9,7 @@ var paths = {
     js: './frontend/src/react/**/*.js', // ES6 files location to be watched.
     jsMain: './frontend/src/react/app.js',
     assets: './frontend/src/assets/css', // Webpack entry
+    fonts: './frontend/src/assets/fonts/**',
     files: [
         './frontend/src/index.html'
     ] // List of additional files to be copied to the build path and watched

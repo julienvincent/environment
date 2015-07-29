@@ -18,8 +18,16 @@ elixir.extend('carbon', function () {
         });
     });
 
+    gulp.task('fonts', function () {
+        gulp.src(paths.fonts)
+            .pipe(gulp.dest("./frontend/src/build/fonts"))
+    });
+
     paths.files.forEach(function (file) {
         this.registerWatcher('carbon', file);
     }.bind(this));
+    this.registerWatcher('fonts', paths.fonts);
+
+    this.queueTask('fonts');
     return this.queueTask('carbon');
 });
