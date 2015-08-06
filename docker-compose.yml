@@ -52,3 +52,9 @@ artisan:
   working_dir: /data/www
   links:
     - mysql
+
+npm:
+  image: julienvincent/npm
+  volumes:
+    - laravel/folder:/data/www
+  working_dir: /data/www

@@ -1,6 +1,6 @@
 ![nginx 1.7.10](https://img.shields.io/badge/nginx-v1.7.10-brightgreen.svg) ![hhvm status](https://img.shields.io/badge/hhvm-beta-orange.svg) ![License MIT](https://img.shields.io/dub/l/vibe-d.svg)
 
-A personalised development environment that allows for easy and fast deployment by making use of docker containers.
+A personalised, opinionated environment for developing applications. Easy to use in a team environment and makes deployment fast and simple.
 
 ## Contains:
 
@@ -8,7 +8,7 @@ Out-of-the-box this environment was built to be used with the following technolo
 
 + [React](http://facebook.github.io/react/) and [Flummox](http://acdlite.github.io/flummox) frontend
 + [Laravel 5.1](http://laravel.com/) backend
-+ [Docker](https://www.docker.com/)
++ [Docker](https://www.docker.com/) containers
 
 ## Gulp:
 
@@ -20,7 +20,7 @@ for much of the build process.
 
 Additional tags
 
-+ `gulp --production` or `gulp watch --production` Adds an additional minification and Dedupe step.
++ `gulp --production` or `gulp watch --production` Adds an additional minification step.
 
 This environment uses webpack to transpile and bundle the EcmaScript 6 code, but if you would rather use browserify or plain babel, then [laravel-elixir](http://laravel.com/docs/5.1/elixir) can easily handle the setup with minimal effort.
 
@@ -34,6 +34,7 @@ Containers:
 + `backend` Backend container that uses a nginx base and is set up for use with [Laravel](http://laravel.com/)
 + `frontend` Frontend container that uses a nginx base.
 
-The last two containers are for working with Laravel on the backend:
-+ `composer` Builds a container with composer installed to make deployment easier.
-+ `artisan` Builds a container with artisan installed to make deployment easier.
+The last three containers are for working with Laravel and making deployment easier:
++ `composer` Run composer commands within the laravel container.
++ `artisan` Run artisan commands within the laravel container.
++ `npm` Run npm commands within the laravel container. Generally used on deployment.
