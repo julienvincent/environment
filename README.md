@@ -24,7 +24,7 @@ Additional tags
 
 This environment uses webpack to transpile and bundle the EcmaScript 6 code. You can also use [laravel-elixirs](http://laravel.com/docs/5.1/elixir) babelify extension.
 
-#### Thank you [laravel-elixirs](http://laravel.com/docs/5.1/elixir) for creating a slick gulp utility.
+#### Thank you [laravel](http://laravel.com/docs/5.1/elixir) for creating a slick gulp utility.
 
 ## Docker:
 
