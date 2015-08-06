@@ -1,35 +1,43 @@
 mysql:
   image: mysql
   volumes:
-     - mysql:/var/lib/mysql
+    - mysql:/var/lib/mysql
   environment:
     MYSQL_ROOT_PASSWORD: "docker"
     MYSQL_DATABASE: "docker"
 
-# Untested!
 proxy:
   image: jwilder/nginx-proxy
-  ports: 80:80
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+  environment:
+    DEFAULT_HOST: yourdomain.com
+  ports:
+    - "80:80"
 
 backend:
   image: julienvincent/laravel
   ports:
-     - "8080:80"
+    - "8080:80"
+  expose:
+    - "80"
   volumes:
      - backend/src:/data/www
   environment:
-    VIRTUAL_HOST: "api.yourdomain.com"
+    VIRTUAL_HOST: api.yourdomain.com
   links:
     - mysql
 
 frontend:
   image: julienvincent/nginx:react
   ports:
-     - "8000:80"
+    - "8000:80"
+  expose:
+     - "80"
   volumes:
      - frontend/src/build:/data/www
   environment:
-    VIRTUAL_HOST: "www.yourdomain.com, yourdomain.com"
+    VIRTUAL_HOST: www.yourdomain.com,yourdomain.com
 
 composer:
   image: julienvincent/composer

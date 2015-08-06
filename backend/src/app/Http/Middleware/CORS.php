@@ -1,6 +1,6 @@
 <?php
 
-namespace Piarm\Http\Middleware;
+namespace App\Http\Middleware;
 
 use Closure;
 

@@ -6,6 +6,7 @@
 
 import Request from 'superagent'
 
+// update when in production
 let api = 'http://' + window.location.hostname + ':8080/';
 
 class API {
