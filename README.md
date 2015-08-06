@@ -22,7 +22,9 @@ Additional tags
 
 + `gulp --production` or `gulp watch --production` Adds an additional minification step.
 
-This environment uses webpack to transpile and bundle the EcmaScript 6 code, but if you would rather use browserify or plain babel, then [laravel-elixir](http://laravel.com/docs/5.1/elixir) can easily handle the setup with minimal effort.
+This environment uses webpack to transpile and bundle the EcmaScript 6 code. You can also use [laravel-elixirs](http://laravel.com/docs/5.1/elixir) babelify extension.
+
+#### Thank you [laravel-elixirs](http://laravel.com/docs/5.1/elixir) for creating a slick gulp utility.
 
 ## Docker:
 
