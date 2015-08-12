@@ -39,4 +39,3 @@ Containers:
 The last three containers are for working with Laravel and making deployment easier:
 + `composer` Run composer commands within the laravel container.
 + `artisan` Run artisan commands within the laravel container.
-+ `npm` Run npm commands within the laravel container. Generally used on deployment.

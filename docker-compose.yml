@@ -1,10 +1,11 @@
 mysql:
   image: mysql
   volumes:
-    - mysql:/var/lib/mysql
+    - ./mysql:/var/lib/mysql
   environment:
     MYSQL_ROOT_PASSWORD: "docker"
     MYSQL_DATABASE: "docker"
+  restart: always
 
 proxy:
   image: jwilder/nginx-proxy
@@ -14,6 +15,7 @@ proxy:
     DEFAULT_HOST: yourdomain.com
   ports:
     - "80:80"
+  restart: always
 
 backend:
   image: julienvincent/laravel
@@ -22,11 +24,12 @@ backend:
   expose:
     - "80"
   volumes:
-     - backend/src:/data/www
+     - ./backend/src:/data/www
   environment:
     VIRTUAL_HOST: api.yourdomain.com
   links:
     - mysql
+  restart: always
 
 frontend:
   image: julienvincent/nginx:react
@@ -35,26 +38,21 @@ frontend:
   expose:
      - "80"
   volumes:
-     - frontend/src/build:/data/www
+     - ./frontend/src/build:/data/www
   environment:
     VIRTUAL_HOST: www.yourdomain.com,yourdomain.com
+  restart: always
 
 composer:
   image: julienvincent/composer
   volumes:
-    - backend/src:/data/www
+    - ./backend/src:/data/www
   working_dir: /data/www
 
 artisan:
   image: julienvincent/artisan
   volumes:
-    - backend/src:/data/www
+    - ./backend/src:/data/www
   working_dir: /data/www
   links:
     - mysql
-
-npm:
-  image: julienvincent/npm
-  volumes:
-    - laravel/folder:/data/www
-  working_dir: /data/www
