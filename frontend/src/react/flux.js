@@ -3,7 +3,7 @@
  | Flummox - Flux extension
  | Handles dispatcher, actions and stores
  |--------------------------------------------------------------------------
-**/
+ **/
 
 import { Flummox } from 'flummox'
 
@@ -16,12 +16,9 @@ class Flux extends Flummox {
 
         super();
 
-        this.api = 'http://' + window.location.hostname + ':8080';
-
         this.createActions('users', UserActions);
-        this.createStore('users', UserStore, this, this.api);
+        this.createStore('users', UserStore, this);
     }
 }
-
 const flux = new Flux();
 export default flux;

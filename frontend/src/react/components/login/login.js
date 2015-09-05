@@ -1,20 +1,28 @@
 /*
  |--------------------------------------------------------------------------
- | Home page
+ | Login component
  |--------------------------------------------------------------------------
  **/
 
 import React from 'react'
-import { div } from './Html'
+import { div } from 'dom-elements'
 
 export default
-class Home extends React.Component {
+class login extends React.Component {
 
     constructor() {
 
         super();
 
         this.state = {}
+    }
+
+    componentWillMount() {
+
+    }
+
+    componentWillUnmount() {
+
     }
 
     render() {
@@ -24,3 +32,6 @@ class Home extends React.Component {
         )
     }
 }
+login.contextTypes = {
+    router: React.PropTypes.func
+};

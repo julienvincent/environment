@@ -6,9 +6,11 @@
 
 import { render, createElement } from 'react'
 import { run, HistoryLocation } from 'react-router'
-import { Router } from './routes/Router'
+import { Router } from './router/router'
+import env from 'env'
 
-// add HistoryLocation to remove '/#/' from URL's
-run(Router, Handler =>
-        render(createElement(Handler, {}), document.body)
-);
+window.onload = () => {
+    run(Router, env.production ? HistoryLocation : null, Handler =>
+            render(createElement(Handler, {}), document.body)
+    );
+};

@@ -1,0 +1,62 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.7em;
+  font-size: 18px;
+  color: rgba(255, 255, 255, .6);
+  overflow: hidden;
+  height: 100vh;
+  background: #20547c
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.scrollable {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin tablet {
+  @media (max-width: 77em) {
+    @content
+  }
+}
+
+@mixin phone {
+  @media (max-width: 48em) {
+    @content
+  }
+}
+
+h1, h2, h3, h4, h5, h6, label, p, a {
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  color: #c14838;
+}
+
+.hr {
+
+}

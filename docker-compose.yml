@@ -32,15 +32,19 @@ backend:
   restart: always
 
 frontend:
-  image: julienvincent/nginx:react
+  image: node
   ports:
-    - "8000:80"
+    - "8000:8000"
+    - "4200:4200"
   expose:
-     - "80"
+    - "80"
   volumes:
-     - ./frontend/src/build:/data/www
+    - ./frontend/src/:/serve
+    - ./node_modules/:/node_modules
   environment:
     VIRTUAL_HOST: www.yourdomain.com,yourdomain.com
+  working_dir: /serve
+  command: node serve.js
   restart: always
 
 composer:

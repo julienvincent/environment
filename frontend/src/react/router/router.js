@@ -1,19 +1,22 @@
 /*
  |--------------------------------------------------------------------------
- | React-router Routes file
+ | React-router
+ |
+ | - All components are imported here
  |--------------------------------------------------------------------------
  **/
 
 import { Component, createFactory, PropTypes } from 'react'
 import { Route, RouteHandler, DefaultRoute, NotFoundRoute } from 'react-router'
+import { _, div, transition } from 'dom-elements'
 
-import Home from '../components/Home'
+import Home from '../components/home/home'
+import Login from '../components/login/login'
 
-let route = createFactory(Route),
-    handler = createFactory(RouteHandler),
-    root = createFactory(DefaultRoute),
-    pageNotFound = createFactory(NotFoundRoute),
-    Transitions = createFactory(require('react/lib/ReactCSSTransitionGroup'));
+let route = _(Route),
+    handler = _(RouteHandler),
+    root = _(DefaultRoute),
+    pageNotFound = _(NotFoundRoute);
 
 class App extends Component {
 
@@ -26,7 +29,7 @@ class App extends Component {
 
         let key = this.context.router.getCurrentPath();
         return (
-            Transitions({component: 'div', transitionName: 'fade'},
+            transition({component: 'div', className: 'container', transitionName: 'fade', transitionAppear: true},
                 handler({key: key})
             )
         )
@@ -39,8 +42,8 @@ App.contextTypes = {
 let Router = (
     route({path: '/', name: 'home', handler: App},
         root({handler: Home}),
-        pageNotFound({handler: Home}),
-        route({path: 'home', name: 'home', handler: Home})
+
+        route({path: 'login', name: 'login', handler: Login})
     )
 );
 
