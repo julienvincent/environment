@@ -9,8 +9,11 @@ var serve = require("storm-serve"),
     server = express(),
     compression = require('compression'),
     path = require('path'),
-    sync = require('browser-sync'),
-    env = require("./env");
+    sync = require('browser-sync').create(),
+    env = require("./env"),
+
+    servePort = 8000,
+    syncPort = 4200;
 
 server.use(compression());
 
@@ -26,30 +29,37 @@ server.use(serve.main({
         uglify: env.production ? {} : false,
         moduleDeps: {
 
-            transform: [['babelify', {sourceMap: false, stage: 0}]]
+            transform: [['babelify', {sourceMap: false, stage: 0, optional: 'runtime'}]]
         }
     },
 
     aliases: {
         "env": __dirname + '/env.js',
-        "dom-elements": __dirname + '/factories/factories.js'
+        "factories": __dirname + '/factories/factories.js'
     }
 }));
 
 server.use(serve.scss());
-server.use(express.static(path.resolve(path.join(__dirname,'static'))));
+server.use(express.static(path.resolve(path.join(__dirname, 'static'))));
 
 if (!env.production) {
-    sync.watch("frontend/react/**/*.{js,css,scss,html}", sync.reload);
+    sync.watch([
+        __dirname + "/react/**/*.{js,scss}",
+        __dirname + "/static/**/**",
+        __dirname + "/factories/factories.js",
+        __dirname + "/index.html"
+    ]).on('change', sync.reload);
 
     sync.init({
-        proxy: 'localhost:8000',
-        port: 4200,
+        proxy: 'localhost:' + servePort,
+        port: syncPort,
         ghostMode: false,
         reloadOnRestart: true,
+        open: false,
         notify: false,
-        minify: false
-    })
+        minify: false,
+        logLevel: "silent"
+    });
 }
 
-server.listen(8000);
+server.listen(servePort);

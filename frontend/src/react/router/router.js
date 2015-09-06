@@ -8,7 +8,7 @@
 
 import { Component, createFactory, PropTypes } from 'react'
 import { Route, RouteHandler, DefaultRoute, NotFoundRoute } from 'react-router'
-import { _, div, transition } from 'dom-elements'
+import { _, div, transition } from 'factories'
 
 import Home from '../components/home/home'
 import Login from '../components/login/login'

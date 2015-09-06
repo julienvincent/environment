@@ -5,7 +5,7 @@
  **/
 
 import React from 'react'
-import { div } from 'dom-elements'
+import { div } from 'factories'
 
 export default
 class home extends React.Component {
