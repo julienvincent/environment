@@ -8,6 +8,7 @@ var serve = require("storm-serve"),
     express = require("express"),
     server = express(),
     compression = require('compression'),
+    index = require('./middleware/index-middleware'),
     path = require('path'),
     sync = require('browser-sync').create(),
     env = require("./env"),
@@ -15,11 +16,9 @@ var serve = require("storm-serve"),
     servePort = 8000,
     syncPort = 4200;
 
-server.use(compression());
-
-server.use(serve.main({
+var serve_conf = {
     mappings: {
-        "/index.html": __dirname + "/index.html",
+        "/": __dirname + "/index.html",
         "/*.js": __dirname + "/react",
         "/*.scss": __dirname + "/react"
     },
@@ -37,10 +36,7 @@ server.use(serve.main({
         "env": __dirname + '/env.js',
         "factories": __dirname + '/factories/factories.js'
     }
-}));
-
-server.use(serve.scss());
-server.use(express.static(path.resolve(path.join(__dirname, 'static'))));
+};
 
 if (!env.production) {
     sync.watch([
@@ -61,5 +57,11 @@ if (!env.production) {
         logLevel: "silent"
     });
 }
+
+server.use(compression());
+server.use(serve.main(serve_conf));
+server.use(serve.scss());
+server.use(express.static(path.resolve(path.join(__dirname, 'static'))));
+server.use(index(serve_conf));
 
 server.listen(servePort);
