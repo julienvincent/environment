@@ -49,6 +49,7 @@ if (!env.production) {
     sync.init({
         proxy: 'localhost:' + servePort,
         port: syncPort,
+        reloadDelay: 700, // Prevent reload until storm-serve has realized something changed
         ghostMode: false,
         reloadOnRestart: true,
         open: false,
