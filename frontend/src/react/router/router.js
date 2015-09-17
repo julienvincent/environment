@@ -6,11 +6,11 @@
  |--------------------------------------------------------------------------
  **/
 
-import { Component, createFactory, PropTypes, cloneElement } from 'react'
+import { Component, createFactory, PropTypes } from 'react'
 import { Router, IndexRoute, Route } from 'react-router'
 import history from 'history/lib/createBrowserHistory'
 import hash from 'history/lib/createHashHistory'
-import { _, _ce, div, transition } from 'factories'
+import { _, _clone, div, transition } from 'factories'
 import env from 'env'
 
 import Home from '../components/home/home'
@@ -31,14 +31,11 @@ class App extends Component {
         let key = this.props.location.pathname;
         return (
             transition({component: 'div', className: 'container', transitionName: 'fade', transitionAppear: true},
-                _ce(this.props.children, {key: key})
+                _clone(this.props.children, {key: key})
             )
         )
     }
 }
-App.contextTypes = {
-    history: PropTypes.history
-};
 
 let router = _(Router)({history: env.production ? history() : hash()},
     route({path: '/', component: App},

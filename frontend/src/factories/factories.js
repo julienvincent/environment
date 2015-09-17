@@ -8,7 +8,6 @@
 
 var _ = require('react').createFactory;
 module.exports._ = _;
-module.exports._ce = require('react').cloneElement;
 module.exports.transition = _(require('react/lib/ReactCSSTransitionGroup'));
 module.exports.div = _('div');
 module.exports.h1 = _('h1');
@@ -28,3 +27,7 @@ module.exports.input = _('input');
 module.exports.select = _('select');
 module.exports.option = _('option');
 module.exports.label = _('label');
+
+module.exports._clone = function (component, props) {
+    return require('react').cloneElement(component || _('div')({}), props)
+};
