@@ -4,13 +4,9 @@
  |--------------------------------------------------------------------------
  **/
 
-import { render, createElement } from 'react'
-import { run, HistoryLocation } from 'react-router'
-import { Router } from './router/router'
-import env from 'env'
+import { render } from 'react'
+import router from './router/router'
 
 window.onload = () => {
-    run(Router, env.production ? HistoryLocation : null, Handler =>
-            render(createElement(Handler, {}), document.body)
-    );
+    render(router, document.body)
 };

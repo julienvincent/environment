@@ -6,17 +6,18 @@
  |--------------------------------------------------------------------------
  **/
 
-import { Component, createFactory, PropTypes } from 'react'
-import { Route, RouteHandler, DefaultRoute, NotFoundRoute } from 'react-router'
-import { _, div, transition } from 'factories'
+import { Component, createFactory, PropTypes, cloneElement } from 'react'
+import { Router, IndexRoute, Route } from 'react-router'
+import history from 'history/lib/createBrowserHistory'
+import hash from 'history/lib/createHashHistory'
+import { _, _ce, div, transition } from 'factories'
+import env from 'env'
 
 import Home from '../components/home/home'
 import Login from '../components/login/login'
 
 let route = _(Route),
-    handler = _(RouteHandler),
-    root = _(DefaultRoute),
-    pageNotFound = _(NotFoundRoute);
+    index = _(IndexRoute);
 
 class App extends Component {
 
@@ -27,24 +28,24 @@ class App extends Component {
 
     render() {
 
-        let key = this.context.router.getCurrentPath();
+        let key = this.props.location.pathname;
         return (
             transition({component: 'div', className: 'container', transitionName: 'fade', transitionAppear: true},
-                handler({key: key})
+                _ce(this.props.children, {key: key})
             )
         )
     }
 }
 App.contextTypes = {
-    router: PropTypes.func
+    history: PropTypes.history
 };
 
-let Router = (
-    route({path: '/', name: 'home', handler: App},
-        root({handler: Home}),
+let router = _(Router)({history: env.production ? history() : hash()},
+    route({path: '/', component: App},
+        index({component: Home}),
 
-        route({path: 'login', name: 'login', handler: Login})
+        route({path: 'login', component: Login})
     )
 );
 
-export { Router };
+export default router;

@@ -28,10 +28,10 @@ class login extends React.Component {
     render() {
 
         return (
-            div({})
+            div({}, "Login")
         )
     }
 }
 login.contextTypes = {
-    router: React.PropTypes.func
+    history: React.PropTypes.history
 };

@@ -21,8 +21,9 @@
     "compression": "^1.5.2",
     "express": "^4.13.3",
     "flummox": "^3.5.2",
+    "history": "^1.9.1",
     "react": "^0.13.3",
-    "react-router": "^0.13.3",
+    "react-router": "^1.0.0-rc1",
     "react-tap-event-plugin": "^0.1.7",
     "storm-serve": "https://github.com/julienvincent/serve.git",
     "superagent": "^1.2.0"
