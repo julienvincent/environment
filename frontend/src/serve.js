@@ -34,7 +34,8 @@ var serve_conf = {
 
     aliases: {
         "env": __dirname + '/env.js',
-        "factories": __dirname + '/factories/factories.js'
+        "factories": __dirname + '/factories/factories.js',
+        "redux-users": __dirname + '/react/flux/actions/users.js'
     }
 };
 

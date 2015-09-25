@@ -4,11 +4,22 @@
  |--------------------------------------------------------------------------
  **/
 
-import React from 'react'
+import React, { PropTypes } from 'react'
 import { div } from 'factories'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux';
+import * as users from '../../flux/actions/users'
 
 export default
-class home extends React.Component {
+@connect(
+        state => {
+        return {
+            users: state.users
+        }
+    },
+        dispatch => bindActionCreators(users, dispatch)
+)
+class Home extends React.Component {
 
     constructor() {
 
@@ -18,20 +29,14 @@ class home extends React.Component {
     }
 
     componentWillMount() {
-
     }
 
     componentWillUnmount() {
-
     }
 
     render() {
-
         return (
             div({}, "Home")
         )
     }
 }
-home.contextTypes = {
-    history: React.PropTypes.history
-};

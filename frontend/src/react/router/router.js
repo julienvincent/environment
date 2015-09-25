@@ -37,12 +37,12 @@ class App extends Component {
     }
 }
 
-let router = _(Router)({history: env.production ? history() : hash()},
-    route({path: '/', component: App},
-        index({component: Home}),
+const router = () =>
+    _(Router)({history: env.production ? history() : hash()},
+        route({path: '/', component: App},
+            index({component: Home}),
 
-        route({path: 'login', component: Login})
-    )
-);
-
+            route({path: 'login', component: Login})
+        )
+    );
 export default router;

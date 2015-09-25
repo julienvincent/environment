@@ -18,20 +18,14 @@ class login extends React.Component {
     }
 
     componentWillMount() {
-
     }
 
     componentWillUnmount() {
-
     }
 
     render() {
-
         return (
             div({}, "Login")
         )
     }
 }
-login.contextTypes = {
-    history: React.PropTypes.history
-};

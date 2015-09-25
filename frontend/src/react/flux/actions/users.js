@@ -1,16 +1,18 @@
 /*
  |--------------------------------------------------------------------------
- | Actions example
+ | An example action that calls the API middleware
  |--------------------------------------------------------------------------
  **/
 
-import { Actions } from 'flummox'
-import { get } from '../ajax/ajax'
+import { GET_USER_BEGIN, GET_USER_SUCCESS, GET_USER_FAILURE, API, API_GET } from './types'
+import store from '../store'
 
-export default
-class users extends Actions {
-
-    async fetch() {
-        return await get('auth')
+export const getUser = () => {
+    return {
+        [API]: {
+            types: [GET_USER_BEGIN, GET_USER_SUCCESS, GET_USER_FAILURE],
+            method: API_GET,
+            endpoint: 'auth'
+        }
     }
-}
+};
