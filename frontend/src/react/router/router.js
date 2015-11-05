@@ -37,7 +37,7 @@ class App extends Component {
     }
 }
 
-const router = () =>
+const router =
     _(Router)({history: env.production ? history() : hash()},
         route({path: '/', component: App},
             index({component: Home}),

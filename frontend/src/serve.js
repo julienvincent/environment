@@ -25,6 +25,8 @@ var serve_conf = {
 
     deps: {
 
+        production: env.production,
+
         uglify: env.production ? {} : false,
         moduleDeps: {
 
