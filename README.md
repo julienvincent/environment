@@ -1,3 +1,5 @@
+# DEPRECATED
+
 ![nginx 1.7.10](https://img.shields.io/badge/nginx-v1.7.10-brightgreen.svg) ![hhvm status](https://img.shields.io/badge/hhvm-beta-orange.svg) ![License MIT](https://img.shields.io/dub/l/vibe-d.svg)
 
 My own personalized development environment, opened to the world :)
